@@ -1,6 +1,6 @@
 FROM hnc-base:latest
 LABEL name="hnc-web"
-LABEL description="HashNet Container for a web server"
+LABEL description="HashNet Container for a reverse proxy web server"
 LABEL maintainer="hashsploit <hashsploit@protonmail.com>"
 
 ARG NGINX_WORKER_CONNECTIONS=1024
