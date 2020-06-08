@@ -1,0 +1,14 @@
+# temporary files
+temp/
+tmp/
+*.lck
+*.tmp
+*.pid
+*.swp
+
+# General configs
+fs/etc/nginx/conf.d/*
+!fs/etc/nginx/conf.d/.gitkeep
+fs/etc/nginx/certs/*
+!fs/etc/nginx/certs/.gitkeep
+
